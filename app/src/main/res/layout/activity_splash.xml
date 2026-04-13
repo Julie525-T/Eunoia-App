@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:background="#98BAC6"
+    android:background="#A5C6D1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:text="curated calm, delivered"
         android:textSize="14sp"
-        android:textColor="#E6F0F4"
+        android:textColor="#FFFCFC"
         android:layout_marginTop="6dp"
         android:layout_marginLeft="120dp"/>
 

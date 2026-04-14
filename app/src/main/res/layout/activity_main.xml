@@ -9,6 +9,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -20,7 +21,7 @@
       android:background="@drawable/shape"
       android:layout_margin="20dp"
       android:padding="10dp"
-      android:fontFamily="sans-serif-condensed-light"/>
+      android:fontFamily="sans-serif-condensed"/>
 
     <Button
         android:id="@+id/signup"

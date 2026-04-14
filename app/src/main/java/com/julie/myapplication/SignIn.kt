@@ -51,7 +51,7 @@ class SignIn : AppCompatActivity() {
             data.put("email",email.text.toString().trim())
             data.put("password",password.text.toString().trim())
 
-//            API helper-it deli8vers our data to the api
+//            API helper-it delivers our data to the api
 
             val helper= ApiHelper(applicationContext)
             helper.post_login(api,data)

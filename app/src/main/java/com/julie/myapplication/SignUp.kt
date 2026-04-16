@@ -46,7 +46,7 @@ class SignUp : AppCompatActivity() {
 
             data.put("username",username.text.toString().trim())
             data.put("email",email.text.toString().trim())
-            data.put("phone",phone.toString().trim())
+            data.put("phone",phone.text.toString().trim())
             data.put("password",password.text.toString().trim())
 
             val helper= ApiHelper(applicationContext)

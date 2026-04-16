@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ADD9DE"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+
+            />
+
+        <ImageView
+            android:id="@+id/product_photo"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/product_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kes 100"
+            android:fontFamily="sans-serif"
+            android:textColor="#03A9F4"/>
+
+
+
+        <TextView
+            android:id="@+id/product_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a great product with amazing colour and design."
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-condensed"
+
+            />
+
+        <Button
+            android:id="@+id/purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purchase now"
+            android:textSize="15sp"
+            android:backgroundTint="#6AD8E6"
+            android:padding="10dp"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

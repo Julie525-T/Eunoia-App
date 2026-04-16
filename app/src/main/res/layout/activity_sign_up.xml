@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Account"
+        android:background="@drawable/shape"
         android:textSize="50sp"
         android:textColor="#3DBBF6"
         android:textAlignment="center"

@@ -3,10 +3,12 @@ package com.julie.myapplication
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ProgressBar
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.RecyclerView
 import kotlin.math.sign
 
 class MainActivity : AppCompatActivity() {
@@ -39,5 +41,17 @@ class MainActivity : AppCompatActivity() {
             val signupIntent= Intent(applicationContext,SignUp::class.java)
             startActivity(signupIntent)
         }
+
+        val progressBar=findViewById<ProgressBar>(R.id.progressbar)
+
+        val recyclerView=findViewById<RecyclerView>(R.id.recyclerview)
+
+        val api= "https://julie.alwaysdata.net/api/getproductdetails"
+
+        val helper= ApiHelper(applicationContext)
+        helper.loadProducts(api,recyclerView, progressBar)
+
+
+
     }
 }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Info"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:textSize="50sp"
+        android:textColor="#3DBBF6"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to our ecommerce app, a simple and user-friendly platform designed to make online shopping easy and accessible for everyone. Users can quickly sign up to create an account, securely sign in, and browse a wide range of products with detailed descriptions and images. Our seamless checkout process allows customers to pay conviniently through M-pesa."
+        android:layout_margin="20dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something to speak"
+        android:background="@drawable/edittext"
+        android:padding="20dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/speakButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listen"
+        android:backgroundTint="#3DBBF6"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>

@@ -42,6 +42,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(signupIntent)
         }
 
+        val aboutinfo=findViewById<Button>(R.id.aboutinfo)
+
+        aboutinfo.setOnClickListener{
+            val aboutinfoIntent= Intent(applicationContext, About::class.java)
+            startActivity(aboutinfoIntent)
+
+        }
+
         val progressBar=findViewById<ProgressBar>(R.id.progressbar)
 
         val recyclerView=findViewById<RecyclerView>(R.id.recyclerview)
@@ -54,4 +62,6 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+
 }
